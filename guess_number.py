@@ -17,13 +17,13 @@ while True:
         amount_tries += 1
     
     # Если число больше загаданного...
-    if guess > number:
+    elif guess > number:
         # ...выводим сообщение.
         print('Ваше число больше того, что загадано.')
         amount_tries += 1
     
     # Если число угадано...
-    if guess == number:
+    elif guess == number:
         # ...прерываем выполнение программы и...
         amount_tries += 1
         break
